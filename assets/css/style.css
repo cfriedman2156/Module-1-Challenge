@@ -7,32 +7,32 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Updated .header to header */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Updated .header h1 to h1 */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Updated .header h1 .seo to span */
 span {
     color: #d9dcd6;
 }
-
+/* Updated .header div to topnav */
 .topnav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
 }
-
+/* Removed unnecessary .header div ul, updated .header div ul li to li */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -46,7 +46,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Updated .hero to .hero-img because it is an image, this makes it easier to follow */
 .hero-img {
     height: 800px;
     width: 100%;
@@ -65,17 +65,20 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Replaced .search-engine-optimization h2, .online-reputation-management h2 and .social-media-marketing
+h2 with h2, because these are the only h2 titles used on the page */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-.content {
+/* Moved the content css before the benefits so follows the order of the index.html and is easier to follow */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Combined .search-engine-optimization, .online-reputation-management and .social-media-marketing
+into .content-block because they were identical */
 .content-block {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,7 +87,8 @@ h2 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Combined .search-engine-optimization img, .online-reputation-management img and .social-media-marketing
+img into .content-block img because they were identical */
 .content-block img {
     max-height: 200px;
 }
@@ -99,26 +103,29 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Combined .benefit-lead, .benefit-brand and .benefit-cost
+into .benefit-block because they were identical */
 .benefit-block {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Combined .benefit-lead h3, .benefit-brand h3 and .benefit-cost h3
+into .benefit-block h3 because they were identical */
 .benefit-block h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Combined .benefit-lead img, .benefit-brand img and .benefit-cost img
+into .benefit-block img because they were identical */
 .benefit-block img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Replaced .footer with footer */
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
